@@ -1,0 +1,51 @@
+.food-item {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 50px;
+    margin: 30px 35px;
+
+}
+
+.single img {
+    width: 100%;
+    height: auto;
+    padding: 10px 10px;
+}
+
+.single {
+    background-color: rgb(233, 228, 228);
+    border-radius: 20px;
+    padding: 5px 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.single:hover {
+    background-color: rgb(206, 203, 203);
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+.buttons{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 5px 5px;
+}
+.plus {
+    background-color: lightgreen;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.minus {
+    background-color: lightcoral;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}

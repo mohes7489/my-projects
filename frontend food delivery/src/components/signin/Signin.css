@@ -1,0 +1,133 @@
+.login {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .login-form {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    max-width: 90vw;
+    padding: 20px; /* Added padding for content spacing */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space between sections */
+    height: auto;
+  }
+  
+  /* Top section styling, including the title and close button */
+  .top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px; /* Add margin to separate from the content */
+  }
+  
+  .top-section h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  /* Style for the close button */
+  .top-button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: rgb(84, 82, 82);
+    cursor: pointer;
+    width: 5px;
+    margin: 0;
+  }
+
+  .top-button:hover{
+    background-color: transparent;
+  }
+  
+  /* Content section */
+  .login-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Align the text and inputs inside the form */
+  .right-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .inputs {
+    width: 100%;
+  }
+  
+  .input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Spacing between inputs */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .input img {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  .input input {
+    border: none;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  /* Bottom message and link to switch between sign up and register */
+  .input-pargraph {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  p span {
+    color: tomato;
+    cursor: pointer;
+  }
+  
+  /* Style for the action button (Sign In/Register) */
+  .register-button {
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(237, 172, 160);
+    border: 1px solid tomato;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .register-button:hover {
+    background-color: tomato;
+  }
+
+  .text{
+    font-weight: 600;
+    padding-bottom: 10px;
+  }
+  

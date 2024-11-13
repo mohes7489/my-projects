@@ -1,0 +1,53 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw;
+}
+
+.menu-list{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.active {
+    border-bottom: 1px solid rgb(189, 178, 176);
+}
+.navbar li{
+    cursor: pointer;
+}
+
+.navbar-right button{
+    background: transparent;
+    border: 1px solid tomato;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar-right button:hover{
+    background-color: rgb(235, 230, 230);
+}
+
+.basket{
+    position: relative;
+}
+
+.dot{
+    position: absolute;
+    background-color: tomato;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    top: -5px;
+    right: -2px;
+}

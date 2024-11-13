@@ -1,0 +1,27 @@
+.list-item{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    justify-content: center;
+    align-items: center;
+    margin: 30px 35px;
+    background-color: white;
+
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.item img{
+    padding-bottom: 10px;
+    
+}
+
+.item:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}

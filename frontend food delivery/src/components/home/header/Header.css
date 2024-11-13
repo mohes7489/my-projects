@@ -1,0 +1,26 @@
+.header{
+    height: 34vw;
+    margin: 20px 35px;
+    padding: 20px;
+    background: url('./header_img.png') no-repeat;
+    position: relative;
+    background-size: 100%;
+}
+
+.header-content{
+    position: absolute;
+    left: 5vw;
+    bottom: 2vw;
+}
+
+.header-content h2{
+    color: azure;
+    font-size: 22px;
+    font-weight: 300;
+    padding-bottom: 2vw;
+}
+
+.header-content p{
+    color: azure;
+    font-weight: 300;
+}
